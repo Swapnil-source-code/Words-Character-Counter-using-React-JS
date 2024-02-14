@@ -1,0 +1,59 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(135deg, #eeaeca, #94bbe9);
+  color: #ffffff;
+}
+
+.container .heading{
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 25px;
+}
+
+.container textarea{
+  width: 70%;
+  height: 40%;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+  max-width: 780px;
+  resize: vertical;
+  margin-top: 20px;
+  padding: 15px;
+}
+
+.outputBox{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.outputBox div{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px;
+}
+
+.outputBox input{
+  width: 100px;
+  height: 40px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 4px;
+  background: rgba(60, 38, 38, 0.61);
+  color: #f27aae;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.outputBox label{
+  font-size: 20px;
+  font-weight: 500;
+}
