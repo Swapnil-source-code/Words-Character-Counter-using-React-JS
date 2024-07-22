@@ -57,3 +57,34 @@
   font-size: 20px;
   font-weight: 500;
 }
+
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 768px) {
+  .container .heading {
+    margin-top: 15px;
+  }
+  .container textarea {
+    height: 35%;
+  }
+  .outputBox {
+    margin-top: 30px;
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .container .heading {
+    font-size: 36px;
+    margin-top: 5px;
+  }
+  .container textarea {
+    width: 85%;
+  }
+  .outputBox input {
+    margin-left: 20px;
+  }
+  .outputBox {
+  margin-top: 35px;
+  }
+}
